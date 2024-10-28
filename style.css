@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-login a {
+    color: #fff;
+}
+
+.banner {
+    background-color: #EEE6D8;
+    text-align: center;
+    padding: 2rem;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.product-section {
+    padding: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-card img {
+   max-height: 150px;
+}
+
+.reviews {
+    background-color: #EEE6D8;
+    padding: 2rem;
+    text-align: center;
+}
+
+.reviews h3 {
+    margin-bottom: 1rem;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.review-card {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-links a {
+    color: #EEE6D8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.styled-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #93441A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.styled-button:hover {
+    background-color: #B67332;
+    transform: scale(1.05);
+}
+
+.why-us {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f0f0f0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.why-us li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
